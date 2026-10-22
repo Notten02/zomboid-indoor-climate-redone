@@ -1,0 +1,23 @@
+# Working notes: plans, results, context. Never committed.
+.ai/
+
+# Downloaded dev dependencies (tools/fetch-umbrella.sh), the manual MP test dirs (tools/mp-server.sh) and the
+# automated E2E bench (.cache/pz-e2e)
+.cache/
+
+# Test and coverage output
+luacov.*.out
+*.log
+
+# Editors and OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Leftovers that must never ship
+*.bak
+
+# Python bytecode from tools/make-release-art.py
+__pycache__/

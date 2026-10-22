@@ -1,0 +1,7 @@
+name=Indoor Climate Redone E2E tests (dev only)
+id=IndoorClimateRedoneE2E
+description=Multiplayer end-to-end tests for Indoor Climate Redone. Never ships.
+author=Nick Otten
+modversion=0.1.0
+versionMin=42.21.0
+require=\PZE2EHarness,\IndoorClimateRedone

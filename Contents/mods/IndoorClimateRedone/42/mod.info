@@ -1,0 +1,9 @@
+name=Indoor Climate Redone
+id=IndoorClimateRedone
+poster=poster.png
+icon=icon.png
+description=Room air temperature for Build 42: buildings hold heat, open doors and broken windows let it out, and heaters and fans change it. An addon for Extensive Health Redone. A from-scratch rewrite of Indoor Climate (EHR Addon) by Frozen_Heart, the original author. Do not enable together with the original.
+author=Nick Otten (original mod by Frozen_Heart)
+modversion=0.1.0
+versionMin=42.21.0
+incompatible=\IndoorClimateLiteB42,IndoorClimateLiteB42

@@ -1,0 +1,58 @@
+module IndoorClimateLite
+{
+    model ElectricHeaterModel
+    {
+        mesh = IndoorClimateLite/Heater2,
+        texture = IndoorClimateLite/Heater2,
+        static = true,
+        scale = 1,
+        attachment world
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+            scale = 1,
+        }
+    }
+
+    model PremiumHeaterModel
+    {
+        mesh = IndoorClimateLite/PremiumHeater,
+        texture = IndoorClimateLite/PremiumHeater,
+        static = true,
+        scale = 1,
+        attachment world
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+            scale = 1,
+        }
+    }
+
+    model StandingFanModel
+    {
+        mesh = IndoorClimateLite/StandingFan,
+        texture = IndoorClimateLite/StandingFan,
+        static = true,
+        scale = 1,
+        attachment world
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+            scale = 1,
+        }
+    }
+
+    model PropaneHeaterModel
+    {
+        mesh = IndoorClimateLite/PropaneHeater,
+        texture = IndoorClimateLite/PropaneHeater,
+        static = true,
+        scale = 1,
+        attachment world
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+            scale = 1,
+        }
+    }
+}

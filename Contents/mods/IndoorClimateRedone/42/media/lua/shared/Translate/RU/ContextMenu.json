@@ -1,0 +1,18 @@
+{
+    "ContextMenu_ICLInstallHeater": "Установить обогреватель",
+    "ContextMenu_ICLTurnOnHeater": "Включить обогреватель",
+    "ContextMenu_ICLTurnOffHeater": "Выключить обогреватель",
+    "ContextMenu_ICLHeaterNeedsElectricity": "Необходимо электропитание",
+    "ContextMenu_ICLInstallFan": "Установить напольный вентилятор",
+    "ContextMenu_ICLTurnOnFan": "Включить вентилятор",
+    "ContextMenu_ICLTurnOffFan": "Выключить вентилятор",
+    "ContextMenu_ICLInstallPropaneHeater": "Установить пропановый обогреватель",
+    "ContextMenu_ICLTurnOnPropaneHeater": "Включить пропановый обогреватель",
+    "ContextMenu_ICLTurnOffPropaneHeater": "Выключить пропановый обогреватель",
+    "ContextMenu_ICLPropaneRemaining": "Пропан: %d%%",
+    "ContextMenu_ICLNoPropaneTank": "Баллон с пропаном не установлен",
+    "ContextMenu_ICLInsertPropaneTank": "Установить баллон с пропаном",
+    "ContextMenu_ICLReplacePropaneTank": "Заменить баллон с пропаном",
+    "ContextMenu_ICLRemovePropaneTank": "Снять баллон с пропаном",
+    "ContextMenu_ICLPropaneHeaterNeedsFuel": "Необходим непустой баллон с пропаном"
+}

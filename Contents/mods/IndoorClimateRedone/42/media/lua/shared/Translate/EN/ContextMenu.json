@@ -1,0 +1,18 @@
+{
+    "ContextMenu_ICLInstallHeater": "Install Heater",
+    "ContextMenu_ICLTurnOnHeater": "Turn On Heater",
+    "ContextMenu_ICLTurnOffHeater": "Turn Off Heater",
+    "ContextMenu_ICLHeaterNeedsElectricity": "Requires electricity",
+    "ContextMenu_ICLInstallFan": "Install Standing Fan",
+    "ContextMenu_ICLTurnOnFan": "Turn On Fan",
+    "ContextMenu_ICLTurnOffFan": "Turn Off Fan",
+    "ContextMenu_ICLInstallPropaneHeater": "Install Propane Heater",
+    "ContextMenu_ICLTurnOnPropaneHeater": "Turn On Propane Heater",
+    "ContextMenu_ICLTurnOffPropaneHeater": "Turn Off Propane Heater",
+    "ContextMenu_ICLPropaneRemaining": "Propane: %d%%",
+    "ContextMenu_ICLNoPropaneTank": "Propane tank: not installed",
+    "ContextMenu_ICLInsertPropaneTank": "Insert Propane Tank",
+    "ContextMenu_ICLReplacePropaneTank": "Replace Propane Tank",
+    "ContextMenu_ICLRemovePropaneTank": "Remove Propane Tank",
+    "ContextMenu_ICLPropaneHeaterNeedsFuel": "Requires a non-empty propane tank"
+}

@@ -1,0 +1,55 @@
+module IndoorClimateLite
+{
+    imports
+    {
+        Base
+    }
+
+    item ElectricHeater
+    {
+        DisplayCategory = Electronics,
+        ItemType = base:normal,
+        Icon = CheapHeater,
+        Weight = 5.0,
+        DisplayName = Cheap Heater,
+        WorldObjectSprite = appliances_misc_01_25,
+        StaticModel = IndoorClimateLite.ElectricHeaterModel,
+        WorldStaticModel = IndoorClimateLite.ElectricHeaterModel,
+    }
+
+    item PremiumHeater
+    {
+        DisplayCategory = Electronics,
+        ItemType = base:normal,
+        Icon = PremiumHeater,
+        Weight = 7.0,
+        DisplayName = Premium Heater,
+        WorldObjectSprite = appliances_misc_01_24,
+        StaticModel = IndoorClimateLite.PremiumHeaterModel,
+        WorldStaticModel = IndoorClimateLite.PremiumHeaterModel,
+    }
+
+    item StandingFan
+    {
+        DisplayCategory = Electronics,
+        ItemType = base:normal,
+        Icon = StandingFan,
+        Weight = 5.0,
+        DisplayName = Standing Fan,
+        WorldObjectSprite = appliances_misc_01_24,
+        StaticModel = IndoorClimateLite.StandingFanModel,
+        WorldStaticModel = IndoorClimateLite.StandingFanModel,
+    }
+
+    item PropaneHeater
+    {
+        DisplayCategory = Electronics,
+        ItemType = base:normal,
+        Icon = PropaneHeater,
+        Weight = 8.0,
+        DisplayName = Propane Heater,
+        WorldObjectSprite = appliances_cooking_01_35,
+        StaticModel = IndoorClimateLite.PropaneHeaterModel,
+        WorldStaticModel = IndoorClimateLite.PropaneHeaterModel,
+    }
+}

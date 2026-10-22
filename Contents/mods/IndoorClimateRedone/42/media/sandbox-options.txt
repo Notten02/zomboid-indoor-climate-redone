@@ -1,0 +1,115 @@
+VERSION = 1,
+
+option IndoorClimateLite.Enabled
+{
+    type = boolean,
+    default = true,
+    page = IndoorClimateLite_General,
+    translation = IndoorClimateLite_Enabled,
+}
+
+option IndoorClimateLite.UpdateMinutes
+{
+    type = integer,
+    min = 1,
+    max = 60,
+    default = 1,
+    page = IndoorClimateLite_General,
+    translation = IndoorClimateLite_UpdateMinutes,
+}
+
+option IndoorClimateLite.UnvisitedOffsetC
+{
+    type = double,
+    min = 0.0,
+    max = 10.0,
+    default = 2.0,
+    page = IndoorClimateLite_General,
+    translation = IndoorClimateLite_UnvisitedOffsetC,
+}
+
+option IndoorClimateLite.HeaterGeneratorFuelPerHour
+{
+    type = double,
+    min = 0.0,
+    max = 0.25,
+    default = 0.04,
+    page = IndoorClimateLite_General,
+    translation = IndoorClimateLite_HeaterGeneratorFuelPerHour,
+}
+
+option IndoorClimateLite.PoweredTargetC
+{
+    type = double,
+    min = 22.0,
+    max = 27.0,
+    default = 22.0,
+    page = IndoorClimateLite_General,
+    translation = IndoorClimateLite_PoweredTargetC,
+}
+
+option IndoorClimateLite.PoweredRatePerHour
+{
+    type = double,
+    min = 0.1,
+    max = 10.0,
+    default = 3.0,
+    page = IndoorClimateLite_General,
+    translation = IndoorClimateLite_PoweredRatePerHour,
+}
+
+option IndoorClimateLite.PoweredLeakInfluence
+{
+    type = double,
+    min = 0.0,
+    max = 1.0,
+    default = 0.75,
+    page = IndoorClimateLite_General,
+    translation = IndoorClimateLite_PoweredLeakInfluence,
+}
+
+option IndoorClimateLite.SealedLossPerHour
+{
+    type = double,
+    min = 0.005,
+    max = 0.5,
+    default = 0.06,
+    page = IndoorClimateLite_General,
+    translation = IndoorClimateLite_SealedLossPerHour,
+}
+
+option IndoorClimateLite.BreachMultiplier
+{
+    type = double,
+    min = 1.0,
+    max = 30.0,
+    default = 12.0,
+    page = IndoorClimateLite_General,
+    translation = IndoorClimateLite_BreachMultiplier,
+}
+
+option IndoorClimateLite.ScanRadius
+{
+    type = integer,
+    min = 2,
+    max = 10,
+    default = 5,
+    page = IndoorClimateLite_General,
+    translation = IndoorClimateLite_ScanRadius,
+}
+
+option IndoorClimateLite.NativeBridge
+{
+    type = boolean,
+    default = true,
+    page = IndoorClimateLite_General,
+    translation = IndoorClimateLite_NativeBridge,
+}
+
+option IndoorClimateLite.DebugLogging
+{
+    type = boolean,
+    default = false,
+    page = IndoorClimateLite_General,
+    translation = IndoorClimateLite_DebugLogging,
+}
